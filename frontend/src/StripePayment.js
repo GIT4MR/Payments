@@ -10,7 +10,7 @@ import { loadStripe } from "@stripe/stripe-js";
  
 function StripePayment() { 
     const makePayment = async () => { 
-        const stripe = await loadStripe("pk_test_51OC2QJSDEubPwNMcSG06NCQLYB5WitgWWzRPyke5V61B5dV2upI2XQ7OTcpP8FYggTY51jNfhzCw5pQX134zSz4300GZKtf73h"); 
+        const stripe = await loadStripe(""); 
         const body = {product}; 
         const headers = { 
           "Content-Type": "application/json", 
